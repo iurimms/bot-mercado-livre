@@ -20,14 +20,18 @@ Este projeto é um script de automação em Python que vigia a página de um pro
 Clone o repositório e instale as dependências:
 ```bash
 pip install -r requirements.txt
+``` 
 
 ### 2. Configuração
 Crie um arquivo .env na raiz do projeto e adicione suas credenciais:
+```ini
 TOKEN_DO_TELEGRAM=seu_token_aqui
 CHAT_ID_DO_TELEGRAM=seu_id_aqui
+```
 
 ### 3. Rodando
 No arquivo monitor.py, adicione o link do produto desejado na variável URL_PRODUTO e execute:
+```bash
 python monitor.py
 
 Aviso: Este projeto é para fins educacionais. O uso excessivo de requisições (web scraping) pode bloquear seu IP temporariamente no site alvo. 
