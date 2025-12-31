@@ -33,5 +33,5 @@ CHAT_ID_DO_TELEGRAM=seu_id_aqui
 No arquivo monitor.py, adicione o link do produto desejado na variável URL_PRODUTO e execute:
 ```bash
 python monitor.py
-
+```
 Aviso: Este projeto é para fins educacionais. O uso excessivo de requisições (web scraping) pode bloquear seu IP temporariamente no site alvo. 
